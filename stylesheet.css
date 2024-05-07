@@ -1,0 +1,734 @@
+html{
+    background: rgb(251,220,175);
+background: linear-gradient(180deg, rgba(251,220,175,1) 0%, rgba(240,174,118,1) 100%);
+    font-family: ubuntu;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+}
+/*div-Cabeçalho*/
+
+header{
+    display: flex;
+    gap: 10px;
+    width: 100%
+}
+#chamada{
+    color: #58321c;
+    font-size: 30px;
+    text-align: center;
+    padding: 14px;
+}
+
+#logo{
+    width: 20%;
+    padding: 2% 0% 2% 2%;
+}
+
+
+/*Text & Video*/
+
+p{
+    font-size: 2vh;
+    text-align: justify;
+    hyphens: none;
+    padding: 2vh
+}
+.video{
+    display:inline-flex;
+    padding-left: 5vh;
+}
+
+
+/*Div-cards*/
+
+.testimonials{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #10662E; 
+    padding:30px 50px;
+    margin: 0px;
+}
+img{
+    width: 300px;
+    padding: 10px;  
+}
+
+/*Div-form*/
+
+.formulario{
+    display:flex;
+    grid-template-columns: 5fr;
+    align-content:center;
+    row-gap: 10px;
+       
+}
+input{
+    display:flex;
+    grid-template-rows:10px 10px 10px 10px;
+    column-gap: 10px;
+    align-items: center;
+    width: 250px;
+    height: 50px;
+    border: 0px;
+    border-radius: 6px;
+    text-align: left;
+    padding-left: 20px;
+    font-size: 20px;
+    font-family: poppins;  
+}
+button{
+    background-color: #10662E;
+    color: aliceblue;
+    border: 0px;
+    border-radius: 6px;
+    font-family: poppins;
+    font-weight: bolder;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#form-title{
+    font-size: 5vh;
+    color: #10662E;
+    padding-right: 30px;
+    text-align:left;
+}
+
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-width : 430px) {
+    html{
+        background: rgb(251,220,175);
+    background: linear-gradient(180deg, rgba(251,220,175,1) 0%, rgba(240,174,118,1) 100%);
+        font-family: ubuntu;
+        margin: 0px;
+        display: flex;
+        flex-direction: column;
+    }
+    /*div-Cabeçalho*/
+    
+    header{
+        display: flex;
+        gap: 10px;
+        width: 100%
+    }
+    #chamada{
+        color: #58321c;
+        font-size: 25px;
+        text-align: center;
+        padding: 14px;
+    }
+    
+    #logo{
+        width: 20%;
+        padding: 2% 0% 2% 2%;
+    }
+    
+    
+    /*Text & Video*/
+    
+    p{
+        font-size: 2vh;
+        text-align: justify;
+        hyphens: none;
+        padding: 2vh
+    }
+    .video{
+        display:inline-flex;
+        padding-left: 5vh;
+    }
+    
+    
+    /*Div-cards*/
+    
+    .testimonials{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #10662E; 
+        padding:30px 50px;
+        margin: 0px;
+    }
+    img{
+        width: 300px;
+        padding: 10px;  
+    }
+    
+    /*Div-form*/
+    
+    .formulario{
+        display:flex;
+        grid-template-columns: 5fr;
+        align-content:center;
+        row-gap: 10px;
+           
+    }
+    input{
+        display:flex;
+        grid-template-rows:10px 10px 10px 10px;
+        column-gap: 10px;
+        align-items: center;
+        width: 250px;
+        height: 50px;
+        border: 0px;
+        border-radius: 6px;
+        text-align: left;
+        padding-left: 20px;
+        font-size: 20px;
+        font-family: poppins;  
+    }
+    button{
+        background-color: #10662E;
+        color: aliceblue;
+        border: 0px;
+        border-radius: 6px;
+        font-family: poppins;
+        font-weight: bolder;
+        width: 200px;
+        height: 50px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+    
+    #form-title{
+        font-size: 5vh;
+        color: #10662E;
+        padding-right: 30px;
+        text-align:left;
+    }
+    
+  }
+  
+  /* Smartphones (landscape) ----------- */
+  @media only screen and (min-width : 480px) {
+    html{
+        background: rgb(251,220,175);
+    background: linear-gradient(180deg, rgba(251,220,175,1) 0%, rgba(240,174,118,1) 100%);
+        font-family: ubuntu;
+        margin: 0px;
+        display: flex;
+        flex-direction: column;
+    }
+    /*div-Cabeçalho*/
+    
+    header{
+        display: flex;
+        gap: 10px;
+        width: 100%
+    }
+    #chamada{
+        color: #58321c;
+        font-size: 25px;
+        text-align: center;
+        padding: 14px;
+    }
+    
+    #logo{
+        width: 20%;
+        padding: 2% 0% 2% 2%;
+    }
+    
+    
+    /*Text & Video*/
+    
+    p{
+        font-size: 2vh;
+        text-align: justify;
+        hyphens: none;
+        padding: 2vh
+    }
+    .video{
+        display:inline-flex;
+        padding-left: 5vh;
+    }
+    
+    
+    /*Div-cards*/
+    
+    .testimonials{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #10662E; 
+        padding:30px 50px;
+        margin: 0px;
+    }
+    img{
+        width: 300px;
+        padding: 10px;  
+    }
+    
+    /*Div-form*/
+    
+    .formulario{
+        display:flex;
+        grid-template-columns: 5fr;
+        align-content:center;
+        row-gap: 10px;
+           
+    }
+    input{
+        display:flex;
+        grid-template-rows:10px 10px 10px 10px;
+        column-gap: 10px;
+        align-items: center;
+        width: 250px;
+        height: 50px;
+        border: 0px;
+        border-radius: 6px;
+        text-align: left;
+        padding-left: 20px;
+        font-size: 20px;
+        font-family: poppins;  
+    }
+    button{
+        background-color: #10662E;
+        color: aliceblue;
+        border: 0px;
+        border-radius: 6px;
+        font-family: poppins;
+        font-weight: bolder;
+        width: 200px;
+        height: 50px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+    
+    #form-title{
+        font-size: 5vh;
+        color: #10662E;
+        padding-right: 30px;
+        text-align:left;
+    }
+  }
+  
+  /* Tablets e iPads (portrait and landscape) ----------- */
+  @media only screen and (min-width : 768px) {
+    html{
+        background: rgb(251,220,175);
+    background: linear-gradient(180deg, rgba(251,220,175,1) 0%, rgba(240,174,118,1) 100%);
+        font-family: ubuntu;
+        margin: 0px;
+        display: flex;
+        flex-direction: column;
+    }
+    /*div-Cabeçalho*/
+    
+    header{
+        display: flex;
+        gap: 10px;
+        width: 100%
+    }
+    #chamada{
+        color: #58321c;
+        font-size: 50px;
+        text-align: center;
+        padding: 14px;
+    }
+    
+    #logo{
+        width: 20%;
+        padding: 2% 0% 2% 2%;
+    }
+    
+    
+    /*Text & Video*/
+    
+    p{
+        font-size: 2vh;
+        text-align: justify;
+        hyphens: none;
+        padding: 2vh;
+        text-wrap: wrap;
+    }
+    .video{
+        display:inline-flex;
+        padding-left: 5vh;
+    }
+    
+    
+    /*Div-cards*/
+    
+    .testimonials{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #10662E; 
+        padding:30px 50px;
+        margin: 0px;
+    }
+    img{
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+        padding: 25px 8vw;  
+        
+    }
+    
+    /*Div-form*/
+    
+    .formulario{
+        display:flex;
+        grid-template-columns: 5fr;
+        align-content:center;
+        row-gap: 10px;
+        margin-bottom: 15%;
+        margin-left: 30%;
+           
+    }
+    input{
+        display:flex;
+        grid-template-rows:10px 10px 10px 10px;
+        column-gap: 10px;
+        align-items: center;
+        width: 250px;
+        height: 50px;
+        border: 0px;
+        border-radius: 6px;
+        text-align: left;
+        padding-left: 20px;
+        font-size: 20px;
+        font-family: poppins;  
+    }
+    button{
+        display: flex;
+        text-align: center;
+        background-color: #10662E;
+        color: aliceblue;
+        border: 0px;
+        border-radius: 6px;
+        font-family: poppins;
+        font-weight: bolder;
+        width: 200px;
+        height: 50px;
+        font-size: 20px;
+        cursor: pointer;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+    }
+    
+    #form-title{
+        display:flex;
+        font-size: 5vh;
+        color: #10662E;
+        padding-right: 30px;
+        text-align:left;
+    }
+  }
+  
+  /* Tablets e iPads (landscape) ----------- */
+  @media only screen and (min-width : 1024px) {
+    html{
+        background: rgb(251,220,175);
+    background: linear-gradient(180deg, rgba(251,220,175,1) 0%, rgba(240,174,118,1) 100%);
+        font-family: ubuntu;
+        margin: 0px;
+        display: flex;
+        flex-direction: column;
+    }
+    /*div-Cabeçalho*/
+    
+    header{
+        display: flex;
+        gap: 10px;
+        width: 100%
+    }
+    #chamada{
+        color: #58321c;
+        font-size: 30px;
+        text-align: center;
+        padding: 14px;
+    }
+    
+    #logo{
+        width: 20%;
+        padding: 2% 0% 2% 2%;
+    }
+    
+    
+    /*Text & Video*/
+    
+    p{
+        font-size: 2vh;
+        text-align: justify;
+        hyphens: none;
+        padding: 2vh
+    }
+    .video{
+        display:inline-flex;
+        padding-left: 5vh;
+    }
+    
+    
+    /*Div-cards*/
+    
+    .testimonials{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #10662E; 
+        padding:30px 50px;
+        margin: 0px;
+    }
+    img{
+        width: 300px;
+        padding: 10px;  
+    }
+    
+    /*Div-form*/
+    
+    .formulario{
+        display:flex;
+        grid-template-columns: 5fr;
+        align-content:center;
+        row-gap: 10px;
+           
+    }
+    input{
+        display:flex;
+        grid-template-rows:10px 10px 10px 10px;
+        column-gap: 10px;
+        align-items: center;
+        width: 250px;
+        height: 50px;
+        border: 0px;
+        border-radius: 6px;
+        text-align: left;
+        padding-left: 20px;
+        font-size: 20px;
+        font-family: poppins;  
+    }
+    button{
+        background-color: #10662E;
+        color: aliceblue;
+        border: 0px;
+        border-radius: 6px;
+        font-family: poppins;
+        font-weight: bolder;
+        width: 200px;
+        height: 50px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+    
+    #form-title{
+        font-size: 5vh;
+        color: #10662E;
+        padding-right: 30px;
+        text-align:left;
+    }
+  }
+  
+  /* Desktops e laptops ----------- */
+  @media only screen and (min-width : 1224px) {
+    html{
+        background: rgb(251,220,175);
+    background: linear-gradient(180deg, rgba(251,220,175,1) 0%, rgba(240,174,118,1) 100%);
+        font-family: ubuntu;
+        margin: 0px;
+        display: flex;
+        flex-direction: column;
+    }
+    /*div-Cabeçalho*/
+    
+    header{
+        display: flex;
+        gap: 10px;
+        width: 100%
+    }
+    #chamada{
+        color: #58321c;
+        font-size: 25px;
+        text-align: center;
+        padding: 14px;
+    }
+    
+    #logo{
+        width: 20%;
+        padding: 2% 0% 2% 2%;
+    }
+    
+    
+    /*Text & Video*/
+    
+    p{
+        font-size: 2vh;
+        text-align: justify;
+        hyphens: none;
+        padding: 2vh
+    }
+    .video{
+        display:inline-flex;
+        padding-left: 5vh;
+    }
+    
+    
+    /*Div-cards*/
+    
+    .testimonials{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #10662E; 
+        padding:30px 50px;
+        margin: 0px;
+    }
+    img{
+        width: 300px;
+        padding: 10px;  
+    }
+    
+    /*Div-form*/
+    
+    .formulario{
+        display:flex;
+        grid-template-columns: 5fr;
+        align-content:center;
+        row-gap: 10px;
+           
+    }
+    input{
+        display:flex;
+        grid-template-rows:10px 10px 10px 10px;
+        column-gap: 10px;
+        align-items: center;
+        width: 250px;
+        height: 50px;
+        border: 0px;
+        border-radius: 6px;
+        text-align: left;
+        padding-left: 20px;
+        font-size: 20px;
+        font-family: poppins;  
+    }
+    button{
+        background-color: #10662E;
+        color: aliceblue;
+        border: 0px;
+        border-radius: 6px;
+        font-family: poppins;
+        font-weight: bolder;
+        width: 200px;
+        height: 50px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+    
+    #form-title{
+        font-size: 5vh;
+        color: #10662E;
+        padding-right: 30px;
+        text-align:left;
+    }
+  }
+  
+  /* Desktops grandes ----------- */
+  @media only screen and (min-width : 1824px) {
+    html{
+        background: rgb(251,220,175);
+    background: linear-gradient(180deg, rgba(251,220,175,1) 0%, rgba(240,174,118,1) 100%);
+        font-family: ubuntu;
+        margin: 0px;
+        display: flex;
+        flex-direction: column;
+    }
+    /*div-Cabeçalho*/
+    
+    header{
+        display: flex;
+        gap: 10px;
+        width: 100%
+    }
+    #chamada{
+        color: #58321c;
+        font-size: 25px;
+        text-align: center;
+        padding: 14px;
+    }
+    
+    #logo{
+        width: 20%;
+        padding: 2% 0% 2% 2%;
+    }
+    
+    
+    /*Text & Video*/
+    
+    p{
+        font-size: 2vh;
+        text-align: justify;
+        hyphens: none;
+        padding: 2vh
+    }
+    .video{
+        display:inline-flex;
+        padding-left: 5vh;
+    }
+    
+    
+    /*Div-cards*/
+    
+    .testimonials{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #10662E; 
+        padding:30px 50px;
+        margin: 0px;
+    }
+    img{
+        width: 300px;
+        padding: 10px;  
+    }
+    
+    /*Div-form*/
+    
+    .formulario{
+        display:flex;
+        grid-template-columns: 5fr;
+        align-content:center;
+        row-gap: 10px;
+           
+    }
+    input{
+        display:flex;
+        grid-template-rows:10px 10px 10px 10px;
+        column-gap: 10px;
+        align-items: center;
+        width: 250px;
+        height: 50px;
+        border: 0px;
+        border-radius: 6px;
+        text-align: left;
+        padding-left: 20px;
+        font-size: 20px;
+        font-family: poppins;  
+    }
+    button{
+        background-color: #10662E;
+        color: aliceblue;
+        border: 0px;
+        border-radius: 6px;
+        font-family: poppins;
+        font-weight: bolder;
+        width: 200px;
+        height: 50px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+    
+    #form-title{
+        font-size: 5vh;
+        color: #10662E;
+        padding-right: 30px;
+        text-align:left;
+    }
+  }
+  

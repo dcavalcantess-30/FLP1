@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Camada_2" data-name="Camada 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 368.99 186">
+  <defs>
+    <style>
+      .cls-1 {
+        font-family: Poppins-ExtraLight, Poppins;
+        font-weight: 200;
+      }
+
+      .cls-1, .cls-2 {
+        font-size: 14px;
+      }
+
+      .cls-3 {
+        fill: url(#Gradiente_sem_nome_11);
+      }
+
+      .cls-3, .cls-4 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        font-family: Poppins-Bold, Poppins;
+        font-weight: 700;
+      }
+
+      .cls-5 {
+        font-family: Poppins-Regular, Poppins;
+        font-size: 11.97px;
+      }
+
+      .cls-4 {
+        fill: #c9961a;
+      }
+    </style>
+    <linearGradient id="Gradiente_sem_nome_11" data-name="Gradiente sem nome 11" x1="184.49" y1="-101.9" x2="184.49" y2="330.61" gradientUnits="userSpaceOnUse">
+      <stop offset=".27" stop-color="#fff"/>
+      <stop offset="1" stop-color="#ccc"/>
+    </linearGradient>
+  </defs>
+  <g id="Arboard2">
+    <g id="Depoimento_1" data-name="Depoimento 1">
+      <rect class="cls-3" width="368.99" height="186" rx="25.75" ry="25.75"/>
+      <text class="cls-5" transform="translate(57.65 55.96)"><tspan x="0" y="0">Foi muito útil para mim em minha jornada</tspan><tspan x="3.03" y="14.36">para lançar minha carreira internacional.</tspan><tspan x="4.21" y="28.73">Cheguei em Portugal em Agosto de 2023</tspan><tspan x="1.66" y="43.09">com o visto e já estou trabalhando como </tspan><tspan x="13.19" y="57.46">gestor na rede de supermercados do </tspan><tspan x="63.64" y="71.82">pingo do Pingo Doce.</tspan></text>
+      <text class="cls-2" transform="translate(231.41 149.16)"><tspan x="0" y="0">Nilson Silva</tspan></text>
+      <text class="cls-1" transform="translate(210.67 165.16)"><tspan x="0" y="0">Braga/Portugal</tspan></text>
+      <g>
+        <polygon class="cls-4" points="146.59 17.63 149.35 23.22 155.52 24.12 151.05 28.47 152.11 34.62 146.59 31.72 141.07 34.62 142.12 28.47 137.66 24.12 143.83 23.22 146.59 17.63"/>
+        <polygon class="cls-4" points="165.54 17.63 168.3 23.22 174.47 24.12 170.01 28.47 171.06 34.62 165.54 31.72 160.02 34.62 161.08 28.47 156.61 24.12 162.78 23.22 165.54 17.63"/>
+        <polygon class="cls-4" points="184.49 17.63 187.25 23.22 193.42 24.12 188.96 28.47 190.01 34.62 184.49 31.72 178.98 34.62 180.03 28.47 175.57 24.12 181.74 23.22 184.49 17.63"/>
+        <polygon class="cls-4" points="203.45 17.63 206.21 23.22 212.38 24.12 207.91 28.47 208.97 34.62 203.45 31.72 197.93 34.62 198.98 28.47 194.52 24.12 200.69 23.22 203.45 17.63"/>
+        <polygon class="cls-4" points="222.4 17.63 225.16 23.22 231.33 24.12 226.87 28.47 227.92 34.62 222.4 31.72 216.88 34.62 217.94 28.47 213.47 24.12 219.64 23.22 222.4 17.63"/>
+      </g>
+    </g>
+  </g>
+</svg>
